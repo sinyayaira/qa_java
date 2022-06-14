@@ -2,7 +2,7 @@ package com.example;
 
 import java.util.List;
 
-public abstract class Lion implements Predator {
+public class Lion {
 
     boolean hasMane;
     Predator predator;
@@ -18,7 +18,7 @@ public abstract class Lion implements Predator {
         this.predator = predator;
     }
 
-    @Override
+
     public int getKittens() {
         return predator.getKittens();
     }
